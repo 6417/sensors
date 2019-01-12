@@ -34,4 +34,5 @@ public class Sharp2y0a21 {
     double getDistance4() {
         return (5461/(this.pin.getVoltage())-2);
     }
+
 }
