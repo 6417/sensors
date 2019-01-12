@@ -18,7 +18,7 @@ public class Sharp2y0a21 {
     Sharp2y0a21(AnalogInput pin) {
         this.pin = pin;
     }
-    double getDistance() {
+    double getDistance1() {
         return Math.pow(3027.4/this.pin.getValue(), 1.2134);
     }
 
@@ -31,7 +31,7 @@ public class Sharp2y0a21 {
         return 4.8/(this.pin.getVoltage()-0.02);
     }
 
-    double getDistance3() {
+    double getDistance4() {
         return (5461/(this.pin.getVoltage())-2);
     }
 }
